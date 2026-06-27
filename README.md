@@ -1,16 +1,33 @@
-# sign_language_translator
+# Sign Language Translator BD 🤟
 
-A new Flutter project.
+A real-time sign language to text translator mobile application designed to bridge the communication gap. Built specifically for offline, on-device processing.
 
-## Getting Started
+## 📸 Screenshots
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <img src="screenshots/splash.png" width="250" />
+  <img src="screenshots/home.png" width="250" /> 
+  <img src="screenshots/camera.png" width="250" />
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
+* **Real-Time Tracking:** Converts hand gestures to text instantly using the live camera feed.
+* **On-Device ML:** Powered by TensorFlow Lite, ensuring fast offline processing without needing external API calls.
+* **Custom Image Processing:** Efficiently converts YUV420 camera frames to RGB matrix for ML model input.
+* **Modern UI/UX:** Clean, intuitive, and premium dashboard with Bengali typography.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+* **Framework:** Flutter
+* **Machine Learning:** TensorFlow Lite (`tflite_flutter`)
+* **Core Packages:** `camera`, `image`, `permission_handler`
+* **Typography:** Google Fonts (Hind Siliguri)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 How to Run Locally
+1. Clone this repository: `git clone https://github.com/yourusername/sign-language-translator-bd.git`
+2. Navigate to the project directory: `cd sign_language_translator`
+3. Get the dependencies: `flutter pub get`
+4. Run the app on a physical device: `flutter run`
+*(Note: Camera features might not work properly on an emulator)*
+
+## 👨‍💻 Developed By
+**Mehedi Hasan**
